@@ -4,10 +4,10 @@ public class Student {
     String name;
     float cgpa;
 
-    Student(String sName, int sID, float sCGPA){
-        name = sName;
-        id = sID;
-        cgpa = sCGPA;
+    Student(String name, int id, float cgpa){
+        this.name = name;
+        this.id = id;
+        this.cgpa = cgpa;
     }
     void displayDetails(){
         System.out.println("Name: " + name);
